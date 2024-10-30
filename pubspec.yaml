@@ -13,7 +13,8 @@ environment:
 
 dependencies:
   bloc: ^8.1.1
-  flame: ^1.17.0
+  flame:
+    git: 'https://github.com/Roman4466/flame.git'
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.2
@@ -22,7 +23,6 @@ dependencies:
 dev_dependencies:
   dartdoc: ^6.3.0
   flame_lint: ^1.1.2
-  flame_test: ^1.16.1
   flutter_lints: ^2.0.1
   flutter_test:
     sdk: flutter
